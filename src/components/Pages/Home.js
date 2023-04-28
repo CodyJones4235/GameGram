@@ -1,10 +1,11 @@
 import React from "react";
-import { CreatePost } from "../Posts/CreatePost";
+import "../PagesCss/Home.css"
+import { NavBar } from "../Navbar/NavBar";
 export const Home = () => {
 
 
     return(<>
-        <h1>Home</h1>
-        {<CreatePost/>}
+        <NavBar/>
+        
     </>)
 };
