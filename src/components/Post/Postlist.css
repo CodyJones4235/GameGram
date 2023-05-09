@@ -1,0 +1,18 @@
+.Post_Container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.Post_Content_Video {
+  width: 1350px;
+  height: 750px;
+}
+
+.Post_Content_Comment {
+}
+
+.Post_Content_Title_Txt {
+  font-size: 150%;
+}
