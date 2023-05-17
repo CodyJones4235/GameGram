@@ -12,10 +12,10 @@ export const PostContent = () => {
             src="https://www.youtube.com/embed/tgbNymZ7vqY"
           />
           <div className="Post_Content_Comment">
-            <text className="Post_Content_Comment_Txt">Csgo Ace</text>
+            <div className="Post_Content_Comment_Txt">Csgo Ace</div>
           </div>
           <div className="Post_Content_Title">
-            <text className="Post_Content_Title_Txt">Csgo Ace</text>
+            <div className="Post_Content_Title_Txt">Csgo Ace</div>
           </div>
         </Card>
       </div>

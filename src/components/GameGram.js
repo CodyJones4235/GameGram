@@ -16,7 +16,7 @@ export const GameGram = () => {
       >
         <Routes>
           <Route
-            path="/"
+            path="/Home"
             element={
               <>
                 <AppShell

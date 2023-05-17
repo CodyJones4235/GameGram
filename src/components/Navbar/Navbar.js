@@ -1,21 +1,21 @@
 import React, { useState } from "react";
-import { NavLink, Box, TextInput, Header, Button } from "@mantine/core";
-import { LoginModal } from "../Post/UploadModal";
+import { NavLink } from "@mantine/core";
+import { UploadModal } from "../Post/UploadModal";
 
 export const Nav_bar = () => {
-  const [showLogin, setShowLogin] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <>
       <NavLink
         label="Upload!"
-        onClick={() => setShowLogin(true)}
+        onClick={() => setShowModal(true)}
         variant="filled"
         active
       />
-      <LoginModal
-        show={showLogin}
-        close={() => setShowLogin(false)}
+      <UploadModal
+        show={showModal}
+        close={() => setShowModal(false)}
         padding={0}
       />
     </>
